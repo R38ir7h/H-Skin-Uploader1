@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "plugin:vue/essential",
+        "airbnb"
+    ],
+    "rules": {
+        "no-param-reassign": "off",
+        "global-require": "off"
+    }
+}

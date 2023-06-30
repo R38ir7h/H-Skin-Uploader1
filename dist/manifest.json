@@ -1,0 +1,7 @@
+{
+  "google-fonts.js": "/dist/google-fonts.js",
+  "google-fonts.css": "/dist/woff.css",
+  "main.js": "/dist/main.js",
+  "runtime~main.js": "/dist/runtime~main.js",
+  "vendors~main.js": "/dist/vendors~main.js"
+}

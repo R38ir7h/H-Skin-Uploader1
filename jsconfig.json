@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "baseUrl": ".",
+        "paths": {
+            "@root/*": ["./*"],
+            "@plugins/*": ["./src/plugins/*"],
+            "@backend/*": ["./src/backend/*"],
+			"@frontend/*": ["./src/frontend/*"],
+			"@pages/*": ["./src/frontend/views/*"],
+        },
+		"strict": true,
+        "target": "esnext",
+        "checkJs": true,
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
